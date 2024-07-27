@@ -45,6 +45,7 @@ footer {
 
 .news{
     padding: 10px;
+    margin-bottom: 100px;
     margin: 10px;
    
 
@@ -83,4 +84,18 @@ p{
 a{
     color: rgb(97, 194, 254);
     text-decoration: none;
+}
+
+@media (max-width: 800px){
+    .news{
+        margin-bottom: 90px;
+    }
+    .end{
+        font-size: small;
+    }
+    
+}
+
+#datetime{
+    margin-top: 8px;
 }
