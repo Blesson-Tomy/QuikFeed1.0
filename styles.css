@@ -1,0 +1,86 @@
+body {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    border-radius: 50%; 
+}
+
+nav {
+    color: white;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the nav is on top */
+}
+
+.colour {
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(205, 196, 196);
+    padding: 5px;
+    display: block;
+    
+    text-align: center;
+    position: fixed;
+    inset: auto 0 0 0;
+}
+
+.notification {
+    color: rgb(200, 21, 21);
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid red;
+    margin-top: 60px; /* Adjust this value based on the height of your nav */
+}
+
+.news{
+    padding: 10px;
+    margin: 10px;
+   
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.card{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.red{
+    color: red;
+    margin: 0px;
+}
+
+.card-body{
+    padding: 5px;
+    padding-left: 10px;
+    
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: rgb(97, 194, 254);
+    text-decoration: none;
+}
